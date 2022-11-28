@@ -8,4 +8,6 @@ Information about the Dataset & Machine Learning Model:
 - Dataset contains 45211 customers. Only around 11% of customers interested in opening term deposit (imbalanced data). <br>
 - The final model that was used to classify the customers is XGBoost.
 - The metrics that used to evaluate the model is AUC-ROC and Recall. The reason why using AUC-ROC and not using accuracy metrics is because the dataset is imbalanced. If still insist on using accuracy the result will be biased. In this project i will prioritized to maximize recall more than precision, because the goal is to increase conversion rate but **the cost aspect will also be considered (precision will not very low)** and it will be proved through simulation.
-- The simulation results show the model increase the conversion rate by up to 6% and can also reduce phone costs by up to 68%.
+
+
+Result : The simulation results show the model increase the conversion rate by up to 6% and can also reduce phone costs by up to 68%.
