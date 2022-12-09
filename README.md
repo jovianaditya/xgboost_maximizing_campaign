@@ -9,5 +9,14 @@ Information about the Dataset & Machine Learning Model:
 - The final model that was used to classify the customers is XGBoost.
 - The metrics that used to evaluate the model is AUC-ROC and Recall. The reason why using AUC-ROC and not using accuracy metrics is because the dataset is imbalanced. If still insist on using accuracy the result will be biased. In this project i will prioritized to maximize recall more than precision, because the goal is to increase conversion rate but **the cost aspect will also be considered (precision will not very low)** and it will be proved through simulation.
 
+Final Model Result
+![Capture](https://user-images.githubusercontent.com/113236791/206643119-47733d33-35fa-4aee-acf8-de41656da456.PNG)
+
+Confusion Matrix
+![image](https://user-images.githubusercontent.com/113236791/206643266-ecb24360-f6c2-4866-814c-fe061469b3e7.png)
+
 
 Result : The simulation results show the model increase the conversion rate by up to 6% and can also reduce phone costs by up to 68%.
+![image](https://user-images.githubusercontent.com/113236791/206643350-bd8fc5b1-900f-4dae-b2d6-7b0ef32fb4c1.png)
+![image](https://user-images.githubusercontent.com/113236791/206643373-2a12da80-7f77-4d7a-b031-ce82bfd3fc82.png)
+
